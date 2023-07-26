@@ -23,6 +23,6 @@ The script also includes a "renameAndNestKey" function that renames or nests wha
 2. Go back to sheets, and reload page and a new option called "Export JSON" should appear at the top bar
 3. **Requirement**: **In order for this to work you must go to view > freeze > 1 column**
 4. Click "Export JSON for this sheet"
-   ![alt text](images/screenshot%1.png?raw=true)
+   ![alt text](images/screenshot1.png?raw=true)
 6. A popup window should appear with the JSON objects
    ![alt text](images/Screenshot2.png?raw=true)
