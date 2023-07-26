@@ -1,9 +1,12 @@
 # sheetsToJsonByColumn
 Adds an "Export JSON" appscript that extracts google sheets data into JSON format by column rather than row.
 <br><br>
-**How to use**: **Go to Extensions > Apps Script, create a new script and paste the code in**
-<br> <br>
-**Requirements**: **In order for this to work you must go to view > freeze > 1 column**
+**How to use**: 
+1. Go to Extensions > Apps Script, create a new script and paste the code in
+2. Go back to sheets, and reload page and a new option called "Export JSON" should appear at the top bar
+3. **Requirement**: **In order for this to work you must go to view > freeze > 1 column**
+4. Click "Export JSON for this sheet"
+5. A popup window should appear with the JSON objects
 
 
 Instead of extracting this with the headers at the top and each object is a row,
