@@ -21,7 +21,7 @@ function onOpen() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var menuEntries = [
     {name: "Export JSON for this sheet", functionName: "exportSheet"},
-    {name: "Export JSON for all sheets", functionName: "exportAllSheets"}
+    //{name: "Export JSON for all sheets", functionName: "exportAllSheets"}
   ];
   ss.addMenu("Export JSON", menuEntries);
 }
@@ -60,7 +60,7 @@ function makeTextBox(app, name) {
   var textArea    = app.createTextArea().setWidth('100%').setHeight('200px').setId(name).setName(name);
   return textArea;
 }
-
+/*
 function exportAllSheets(e) {
   
   var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -75,6 +75,7 @@ function exportAllSheets(e) {
   var json = makeJSON_(sheetsData, getExportOptions(e));
   displayText_(json);
 }
+*/
 
 function exportSheet(e) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
